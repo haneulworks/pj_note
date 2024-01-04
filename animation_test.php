@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+<?php include("/inc/header.php")?>
+<link rel="stylesheet" href="/css/animation_test.css">
     <!-- 
         git 저장소에 수정한 파일 업로드하는방법
         1. 파일을 수정하고 나서 
@@ -22,5 +16,7 @@
         git status 
         치고 엔터
     -->
-</body>
-</html>
+    <div class="aniTestWrap">
+        
+    </div>
+<?php include("/inc/footer.php")?>
