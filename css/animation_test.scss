@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+.aniTestWrap{ width: 100%; max-width: 1200px; margin: 0 auto;
+    .ani_content{ 
+        position: relative;
+        top: 20px;
+        display: inline-block;
+        animation: bounce .5s ease infinite alternate;
+        font-family: 'Titan One', cursive;
+        font-size: 80px;
+        color: #FFF;
+        text-shadow: 0 1px 0 #CCC,
+                     0 2px 0 #CCC,
+                     0 3px 0 #CCC,
+                     0 4px 0 #CCC,
+                     0 5px 0 #CCC,
+                     0 6px 0 transparent,
+                     0 7px 0 transparent,
+                     0 8px 0 transparent,
+                     0 9px 0 transparent,
+                     0 10px 10px rgba(0, 0, 0, .4);
+    }
+    .ani_content2{
+        position: relative;
+        top: 20px;
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        background-color: #000;
+        animation: bounce .5s .2s ease infinite alternate;
+    }
+}
+
+@keyframes bounce {
+    100% {
+      top: -20px;
+      text-shadow: 0 1px 0 #CCC,
+                   0 2px 0 #CCC,
+                   0 3px 0 #CCC,
+                   0 4px 0 #CCC,
+                   0 5px 0 #CCC,
+                   0 6px 0 #CCC,
+                   0 7px 0 #CCC,
+                   0 8px 0 #CCC,
+                   0 9px 0 #CCC,
+                   0 50px 25px rgba(0, 0, 0, .2);
+    }
+  }
