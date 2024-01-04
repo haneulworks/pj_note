@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-.aniTestWrap{ width: 100%; max-width: 1200px; margin: 0 auto;
+.aniTestWrap{ display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 100px; width: 100%; max-width: 1200px; height: 100vh; margin: 0 auto;
     .ani_content{ 
         position: relative;
         top: 20px;
