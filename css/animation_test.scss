@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
 .aniTestWrap{ display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 100px; width: 100%; max-width: 1200px; height: 100vh; margin: 0 auto;
-    .ani_content{ 
+    .ani_text{ 
         position: relative;
         top: 20px;
         display: inline-block;
-        animation: bounce .5s ease infinite alternate;
+        animation: bounce-text .5s ease infinite alternate;
         font-family: 'Titan One', cursive;
         font-size: 80px;
         color: #FFF;
@@ -20,7 +20,7 @@
                      0 9px 0 transparent,
                      0 10px 10px rgba(0, 0, 0, .4);
     }
-    .ani_content2{
+    .ani_circle{
         position: relative;
         top: 20px;
         width: 50px;
@@ -31,18 +31,24 @@
     }
 }
 
+@keyframes bounce-text {
+    100% {
+        top: -20px;
+        text-shadow: 0 1px 0 #CCC,
+                    0 2px 0 #CCC,
+                    0 3px 0 #CCC,
+                    0 4px 0 #CCC,
+                    0 5px 0 #CCC,
+                    0 6px 0 #CCC,
+                    0 7px 0 #CCC,
+                    0 8px 0 #CCC,
+                    0 9px 0 #CCC,
+                    0 50px 25px rgba(0, 0, 0, .2);
+    }
+}
+
 @keyframes bounce {
     100% {
-      top: -20px;
-      text-shadow: 0 1px 0 #CCC,
-                   0 2px 0 #CCC,
-                   0 3px 0 #CCC,
-                   0 4px 0 #CCC,
-                   0 5px 0 #CCC,
-                   0 6px 0 #CCC,
-                   0 7px 0 #CCC,
-                   0 8px 0 #CCC,
-                   0 9px 0 #CCC,
-                   0 50px 25px rgba(0, 0, 0, .2);
+        top: -20px;
     }
-  }
+}
