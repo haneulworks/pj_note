@@ -1,5 +1,17 @@
 @charset "UTF-8";
-
+/* scss map 없애는법 
+    F1 검색 setting.json
+    ,
+    "liveSassCompile.settings.formats":[
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "~/../css"
+        }
+    ],
+    "liveSassCompile.settings.generateMap": false,
+    추가
+*/
 .aniTestWrap{ display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 100px; width: 100%; max-width: 1200px; height: 100vh; margin: 0 auto;
     .ani_text{ 
         position: relative;
