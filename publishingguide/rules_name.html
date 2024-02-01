@@ -1,0 +1,242 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Beer 퍼블리싱 가이드</title>
+    <link rel="stylesheet" href="css/guide.css" />
+</head>
+<body>
+    <header>
+        <h1>Daily Beer Publishing Guide</h1>
+    </header>
+    <div class="container">
+        <div class="nav-side">
+            <ul>
+                <li><a href="index.html">기본환경</a></li>
+                <li><a href="rules_standard.html">표준규칙</a></li>
+                <li><a href="rules_code.html">코드규칙</a></li>
+                <li class="on"><a href="rules_name.html">네임규칙</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="content-header">
+                <h2>네임규칙</h2>
+            </div>
+            <div class="content-body">
+                <div class="section">
+                    <div class="section-header">
+                        <h3>표기법</h3>
+                    </div>
+                    <div class="section-body">
+                        <div class="tbl-type2">
+                            <table>
+								<caption>공통 네이밍 규칙 예</caption>
+								<colgroup>
+									<col style="width:20%">
+									<col style="width:25%">
+									<col style="width:25%">
+									<col>
+								</colgroup>
+								<thead>
+									<tr>
+										<th>종류</th>
+										<th>구분</th>
+										<th>번호</th>
+										<th>예시</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>ID Selector</td>
+										<td>카멜표기법 (camelCase)</td>
+										<td>한 자리수 (생략가능, 2, 3)</td>
+										<td>errorMessage1, errorMessage2</td>
+									</tr>
+									<tr>
+										<td>Class Selector</td>
+										<td>스네이크 표기법 (hyphen-nate)</td>
+										<td>한 자리수 (생략가능, 2, 3)</td>
+										<td>tbl-type1, tbl-type2</td>
+									</tr>
+									<tr>
+										<td>Image</td>
+										<td>스네이크 표기법 (underbar_nate)</td>
+										<td>두 자리수 (01, 02, 03)</td>
+										<td>
+                                            ico_btn_confirm_on.png <br/>
+                                            content_img01.png
+                                        </td>
+									</tr>
+									<tr>
+										<td>파일 및 폴더</td>
+										<td>스네이크 표기법 (underbar_nate)</td>
+										<td>두 자리수 (01, 02, 03)</td>
+										<td>content_img01, content_img02</td>
+									</tr>
+								</tbody>
+							</table>
+                        </div>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="section-header">
+                        <h3>파일/폴더 규칙</h3>
+                    </div>
+                    <div class="section-body">
+                        <ul>
+                            <li>스네이크 표기법(underbar_nate)을 사용한다.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="section-header">
+                        <h3>ID 선택자</h3>
+                    </div>
+                    <div class="section-body">
+                        <div class="tbl-type2">
+                            <table>
+								<caption>예약어</caption>
+								<colgroup><col span="2" style="width:25%;"><col></colgroup>
+								<thead>
+									<tr>
+										<th>구분</th>
+										<th>예시</th>
+										<th>설명</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>기본의미</td>
+										<td>content</td>
+										<td>본문바로가기 연결</td>
+									</tr>
+									<tr>
+										<td>다중의미</td>
+										<td>popupName</td>
+										<td>팝업호출시 필요</td>
+									</tr>
+									<tr>
+										<td>예외처리</td>
+										<td>sFormTitle</td>
+										<td>온라인서식 for/id 연결</td>
+									</tr>
+								</tbody>
+							</table>
+                        </div>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="section-header">
+                        <h3>Class 선택자</h3>
+                    </div>
+                    <div class="section-body">
+                        <div class="tbl-type1">
+                            <table>
+								<caption>예약어</caption>
+								<colgroup><col span="2" style="width:25%;"><col></colgroup>
+								<thead>
+									<tr>
+										<th>구분</th>
+										<th>예약어</th>
+										<th>설명</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td rowspan="8">레이아웃</td>
+										<td>.container</td>
+										<td>전체 영역</td>
+									</tr>
+									<tr>
+										<td>.header-wrap</td>
+										<td>머리글 영역</td>
+									</tr>
+									<tr>
+										<td>.aside</td>
+										<td>사이드 영역</td>
+									</tr>
+									<tr>
+										<td>.content-페이지명</td>
+										<td>본문 영역</td>
+									</tr>
+                                    <tr>
+                                        <td>.section</td>
+                                        <td>본문 내용의 단락 영역</td>
+                                    </tr>
+                                    <tr>
+                                        <td>.section-title</td>
+                                        <td>본문 단락의 헤더 영역</td>
+                                    </tr>
+                                    <tr>
+                                        <td>.section-body</td>
+                                        <td>본문 단락의 내용 영역</td>
+                                    </tr>
+									<tr>
+										<td>.bottom-menu-wrap</td>
+										<td>바닥메뉴 영역</td>
+									</tr>
+								</tbody>
+							</table>
+                        </div>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="section-header">
+                        <h3>이미지 네이밍</h3>
+                    </div>
+                    <div class="section-body">
+                        <div class="tbl-type1">
+                            <table>
+								<caption>이미지 예약어</caption>
+								<colgroup><col span="2" style="width:25%;"><col></colgroup>
+								<thead>
+									<tr>
+										<th>분류</th>
+										<th>파일명</th>
+										<th>설명</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>아이콘</td>
+										<td>ico_</td>
+										<td>아이콘</td>
+									</tr>
+									<tr>
+										<td>버튼</td>
+										<td>btn_</td>
+										<td>버튼전용 아이콘</td>
+									</tr>
+									<tr>
+										<td>배경</td>
+										<td>bg_</td>
+										<td>배경이미지</td>
+									</tr>
+									<tr>
+										<td>비주얼</td>
+										<td>visual_</td>
+										<td>메인비주얼</td>
+									</tr>
+									<tr>
+										<td>일반</td>
+										<td>img_</td>
+										<td>일반 컨텐츠 이미지</td>
+									</tr>
+									<tr>
+										<td>임시</td>
+										<td>imsi_</td>
+										<td>임시 이미지</td>
+									</tr>
+								</tbody>
+							</table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

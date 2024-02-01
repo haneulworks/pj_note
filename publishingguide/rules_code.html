@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Beer 퍼블리싱 가이드</title>
+    <link rel="stylesheet" href="css/guide.css" />
+</head>
+<body>
+    <header>
+        <h1>Daily Beer Publishing Guide</h1>
+    </header>
+    <div class="container">
+        <div class="nav-side">
+            <ul>
+                <li><a href="index.html">기본환경</a></li>
+                <li><a href="rules_standard.html">표준규칙</a></li>
+                <li class="on"><a href="rules_code.html">코드규칙</a></li>
+                <li><a href="rules_name.html">네임규칙</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="content-header">
+                <h2>코드규칙</h2>
+            </div>
+            <div class="content-body">
+                <div class="section">
+                    <div class="section-header">
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="section-body">
+                        <h4>들여쓰기</h4>
+                        <ul>
+                            <li>1탭 들여쓰기 하며, 1탭의 크기는 공백4칸으로 설정한다.</li>
+                        </ul>
+                        <h4>빈 줄</h4>
+                        <ul>
+                            <li>가독성을 고려하여 빈 줄을 추가 할 수 있다. 단 연속적으로 1줄을 초과하지 않는다.</li>
+                        </ul>
+                        <h4>주석</h4>
+                        <p>영역주석</p>
+                        <div class="colorscripter-code" style="color:#f0f0f0;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important; position:relative !important;overflow:auto"><table class="colorscripter-code-table" style="margin:0;padding:0;border:none;background-color:#272727;border-radius:4px;" cellspacing="0" cellpadding="0"><tr><td style="padding:6px;border-right:2px solid #4f4f4f"><div style="margin:0;padding:0;word-break:normal;text-align:right;color:#aaa;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important;line-height:130%"><div style="line-height:130%">1</div><div style="line-height:130%">2</div><div style="line-height:130%">3</div><div style="line-height:130%">4</div><div style="line-height:130%">5</div></div></td><td style="padding:6px 0;text-align:left"><div style="margin:0;padding:0;color:#f0f0f0;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important;line-height:130%"><div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">&lt;!--&nbsp;영역명&nbsp;--&gt;</span></div><div style="background-color:#303030; padding:0 6px; white-space:pre; line-height:130%"><span style="color:#f0f0f0">&lt;</span><span style="color:#ff3399">div</span><span style="color:#f0f0f0">&gt;</span></div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#f0f0f0">&lt;</span><span style="color:#ff3399">p</span><span style="color:#f0f0f0">&gt;</span>시작과&nbsp;끝이&nbsp;있고,&nbsp;마크업의&nbsp;영역을&nbsp;표시한다.<span style="color:#f0f0f0">&lt;</span><span style="color:#f0f0f0">/</span><span style="color:#ff3399">p</span><span style="color:#f0f0f0">&gt;</span></div><div style="background-color:#303030; padding:0 6px; white-space:pre; line-height:130%"><span style="color:#f0f0f0">&lt;</span><span style="color:#f0f0f0">/</span><span style="color:#ff3399">div</span><span style="color:#f0f0f0">&gt;</span></div><div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">&lt;!--&nbsp;//영역명&nbsp;--&gt;</span></div></div></td><td style="vertical-align:bottom;padding:0 2px 4px 0"><a href="http://colorscripter.com/info#e" target="_blank" style="text-decoration:none;color:white"><span style="font-size:9px;word-break:normal;background-color:#4f4f4f;color:white;border-radius:10px;padding:1px">cs</span></a></td></tr></table></div>
+                        <p>설명주석</p>
+                        <div class="colorscripter-code" style="color:#f0f0f0;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important; position:relative !important;overflow:auto"><table class="colorscripter-code-table" style="margin:0;padding:0;border:none;background-color:#272727;border-radius:4px;" cellspacing="0" cellpadding="0"><tr><td style="padding:6px;border-right:2px solid #4f4f4f"><div style="margin:0;padding:0;word-break:normal;text-align:right;color:#aaa;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important;line-height:130%"><div style="line-height:130%">1</div><div style="line-height:130%">2</div></div></td><td style="padding:6px 0;text-align:left"><div style="margin:0;padding:0;color:#f0f0f0;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important;line-height:130%"><div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">&lt;!--&nbsp;설명내용&nbsp;--&gt;</span></div><div style="background-color:#303030; padding:0 6px; white-space:pre; line-height:130%"><span style="color:#f0f0f0">&lt;</span><span style="color:#ff3399">p</span><span style="color:#f0f0f0">&gt;</span>시작과&nbsp;끝이&nbsp;없고,&nbsp;설명할&nbsp;내용을&nbsp;주석으로&nbsp;표기한다.&nbsp;<span style="color:#f0f0f0">&lt;</span><span style="color:#f0f0f0">/</span><span style="color:#ff3399">p</span><span style="color:#f0f0f0">&gt;</span></div></div></td><td style="vertical-align:bottom;padding:0 2px 4px 0"><a href="http://colorscripter.com/info#e" target="_blank" style="text-decoration:none;color:white"><span style="font-size:9px;word-break:normal;background-color:#4f4f4f;color:white;border-radius:10px;padding:1px">cs</span></a></td></tr></table></div>
+                        <p>기록주석</p>
+                        <div class="colorscripter-code" style="color:#f0f0f0;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important; position:relative !important;overflow:auto"><table class="colorscripter-code-table" style="margin:0;padding:0;border:none;background-color:#272727;border-radius:4px;" cellspacing="0" cellpadding="0"><tr><td style="padding:6px;border-right:2px solid #4f4f4f"><div style="margin:0;padding:0;word-break:normal;text-align:right;color:#aaa;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important;line-height:130%"><div style="line-height:130%">1</div><div style="line-height:130%">2</div><div style="line-height:130%">3</div><div style="line-height:130%">4</div><div style="line-height:130%">5</div><div style="line-height:130%">6</div><div style="line-height:130%">7</div><div style="line-height:130%">8</div><div style="line-height:130%">9</div><div style="line-height:130%">10</div><div style="line-height:130%">11</div><div style="line-height:130%">12</div><div style="line-height:130%">13</div><div style="line-height:130%">14</div><div style="line-height:130%">15</div><div style="line-height:130%">16</div><div style="line-height:130%">17</div></div></td><td style="padding:6px 0;text-align:left"><div style="margin:0;padding:0;color:#f0f0f0;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important;line-height:130%"><div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#f0f0f0">&lt;</span><span style="color:#ff3399">div</span><span style="color:#f0f0f0">&gt;</span></div><div style="background-color:#303030; padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;&nbsp;&nbsp;인라인&nbsp;주석인&nbsp;경우&nbsp;<span style="color:#999999">&lt;!--&nbsp;220422&nbsp;이름&nbsp;설명&nbsp;수정/추가/삭제&nbsp;--&gt;</span></div><div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#f0f0f0">&lt;</span><span style="color:#f0f0f0">/</span><span style="color:#ff3399">div</span><span style="color:#f0f0f0">&gt;</span></div><div style="background-color:#303030; padding:0 6px; white-space:pre; line-height:130%">&nbsp;</div><div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">&lt;!--&nbsp;220422&nbsp;설명내용&nbsp;수정/추가/삭제&nbsp;--&gt;</span></div><div style="background-color:#303030; padding:0 6px; white-space:pre; line-height:130%"><span style="color:#f0f0f0">&lt;</span><span style="color:#ff3399">div</span><span style="color:#f0f0f0">&gt;</span></div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;&nbsp;&nbsp;범위가&nbsp;단순한&nbsp;경우&nbsp;닫기&nbsp;생략</div><div style="background-color:#303030; padding:0 6px; white-space:pre; line-height:130%"><span style="color:#f0f0f0">&lt;</span><span style="color:#f0f0f0">/</span><span style="color:#ff3399">div</span><span style="color:#f0f0f0">&gt;</span></div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;</div><div style="background-color:#303030; padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">&lt;!--&nbsp;220422&nbsp;이름&nbsp;설명&nbsp;수정/추가/삭제&nbsp;--&gt;</span></div><div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#f0f0f0">&lt;</span><span style="color:#ff3399">div</span><span style="color:#f0f0f0">&gt;</span></div><div style="background-color:#303030; padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;&nbsp;&nbsp;범위가&nbsp;넓은&nbsp;경우&nbsp;닫기&nbsp;표기</div><div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#f0f0f0">&lt;</span><span style="color:#f0f0f0">/</span><span style="color:#ff3399">div</span><span style="color:#f0f0f0">&gt;</span></div><div style="background-color:#303030; padding:0 6px; white-space:pre; line-height:130%"><span style="color:#f0f0f0">&lt;</span><span style="color:#ff3399">div</span><span style="color:#f0f0f0">&gt;</span></div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;&nbsp;&nbsp;범위가&nbsp;넓은&nbsp;경우&nbsp;닫기&nbsp;표기</div><div style="background-color:#303030; padding:0 6px; white-space:pre; line-height:130%"><span style="color:#f0f0f0">&lt;</span><span style="color:#f0f0f0">/</span><span style="color:#ff3399">div</span><span style="color:#f0f0f0">&gt;</span></div><div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">&lt;!--&nbsp;//220422&nbsp;이름&nbsp;설명&nbsp;수정/추가/삭제&nbsp;--&gt;</span></div></div></td><td style="vertical-align:bottom;padding:0 2px 4px 0"><a href="http://colorscripter.com/info#e" target="_blank" style="text-decoration:none;color:white"><span style="font-size:9px;word-break:normal;background-color:#4f4f4f;color:white;border-radius:10px;padding:1px">cs</span></a></td></tr></table></div>
+                        <h4>속성 선언순서</h4>
+                        <div class="tbl-type2">
+                            <table>
+								<caption>HTML 속성선언순서</caption>
+								<colgroup>
+									<col style="width:20%;">
+									<col>
+									<col style="width:20%;">
+								</colgroup>
+								<thead>
+									<tr>
+										<th>구분</th>
+										<th>속성</th>
+										<th>속성 값</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>1. 기능</td>
+										<td>
+											<p>href, src, type</p>
+										</td>
+										<td></td>
+									</tr>
+									<tr>
+										<td>2. 이름</td>
+										<td>
+											<p>name, id</p>
+										</td>
+										<td></td>
+									</tr>
+									<tr>
+										<td>3. 정보</td>
+										<td>
+											<p>replaceholder, title, alt, value</p>
+										</td>
+										<td></td>
+									</tr>
+									<tr>
+										<td>4. 옵션</td>
+										<td>
+											<p>target, tabindex</p>
+										</td>
+										<td></td>
+									</tr>
+									<tr>
+										<td>5. 역할</td>
+										<td>
+											<p>role</p>
+										</td>
+										<td></td>
+									</tr>
+									<tr>
+										<td>6. 꾸미기</td>
+										<td>
+											<p>class</p>
+										</td>
+										<td></td>
+									</tr>
+									<tr>
+										<td>7. 상태</td>
+										<td>
+											<p>checked, disabled, selected, required 등</p>
+										</td>
+										<td></td>
+									</tr>
+								</tbody>
+							</table>
+                        </div>
+                    </div>
+                </div>   
+                <div class="section">
+                    <div class="section-header">
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="section-body">
+                        <h4>주석/빈줄</h4>
+                        <ul>
+                            <li>종료 주석은 작성하지 않는다.</li>
+                            <li>코드 그룹 간 1줄의 빈 줄을 허용한다. 단, 1줄을 초과하지 않는다.</li>
+                        </ul>
+                        <div class="colorscripter-code" style="color:#f0f0f0;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important; position:relative !important;overflow:auto"><table class="colorscripter-code-table" style="margin:0;padding:0;border:none;background-color:#272727;border-radius:4px;" cellspacing="0" cellpadding="0"><tr><td style="padding:6px;border-right:2px solid #4f4f4f"><div style="margin:0;padding:0;word-break:normal;text-align:right;color:#aaa;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important;line-height:130%"><div style="line-height:130%">1</div><div style="line-height:130%">2</div><div style="line-height:130%">3</div><div style="line-height:130%">4</div><div style="line-height:130%">5</div></div></td><td style="padding:6px 0;text-align:left"><div style="margin:0;padding:0;color:#f0f0f0;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important;line-height:130%"><div style="padding:0 6px; white-space:pre; line-height:130%">/*&nbsp;title&nbsp;*/</div><div style="background-color:#303030; padding:0 6px; white-space:pre; line-height:130%">h1&nbsp;{&nbsp;font-size:&nbsp;1.2rem;&nbsp;}</div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;</div><div style="background-color:#303030; padding:0 6px; white-space:pre; line-height:130%">/*&nbsp;description&nbsp;*/</div><div style="padding:0 6px; white-space:pre; line-height:130%">p&nbsp;{&nbsp;font-size:&nbsp;0.9rem;&nbsp;}</div></div></td><td style="vertical-align:bottom;padding:0 2px 4px 0"><a href="http://colorscripter.com/info#e" target="_blank" style="text-decoration:none;color:white"><span style="font-size:9px;word-break:normal;background-color:#4f4f4f;color:white;border-radius:10px;padding:1px">cs</span></a></td></tr></table></div>
+                        <h4>세미클론(;)</h4>
+                        <ul>
+                            <li>마지막으로 사용된 속성에도 세미클론(;)을 사용한다.</li>
+                        </ul>
+                        <div class="colorscripter-code" style="color:#f0f0f0;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important; position:relative !important;overflow:auto"><table class="colorscripter-code-table" style="margin:0;padding:0;border:none;background-color:#272727;border-radius:4px;" cellspacing="0" cellpadding="0"><tr><td style="padding:6px;border-right:2px solid #4f4f4f"><div style="margin:0;padding:0;word-break:normal;text-align:right;color:#aaa;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important;line-height:130%"><div style="line-height:130%">1</div></div></td><td style="padding:6px 0;text-align:left"><div style="margin:0;padding:0;color:#f0f0f0;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important;line-height:130%"><div style="padding:0 6px; white-space:pre; line-height:130%">h1&nbsp;{&nbsp;margin:0;&nbsp;padding:0;&nbsp;}</div></div></td><td style="vertical-align:bottom;padding:0 2px 4px 0"><a href="http://colorscripter.com/info#e" target="_blank" style="text-decoration:none;color:white"><span style="font-size:9px;word-break:normal;background-color:#4f4f4f;color:white;border-radius:10px;padding:1px">cs</span></a></td></tr></table></div>
+                        <h4>속성 규칙</h4>
+                        <div class="tbl-type2">
+                            <table>
+                                <caption>CSS 속성 규칙</caption>
+                                <colgroup>
+                                    <col style="width:20%" />
+
+                                    <col style="width:30%" />
+                                </colgroup>
+                                <thead>
+                                    <tr>
+                                        <th>종류</th>
+                                        <th>속성</th>
+                                        <th>속성 값</th>
+                                    </tr>
+                                </thead>
+                                
+                                <tbody>
+                                    <tr>
+                                        <td rowspan="2">font</td>
+                                        <td>font-size</td>
+                                        <td>
+                                            16px 기준으로 rem <br />
+                                            예) h1 { font-size: 1.2rem; }
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>font-weight</td>
+                                        <td>
+                                            아라비안숫자로 기입 <br />
+                                            예) h1 { font-weight: 600; }
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>             
+            </div>
+        </div>
+    </div>
+</body>
+</html>

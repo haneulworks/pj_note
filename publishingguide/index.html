@@ -1,0 +1,207 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Beer 퍼블리싱 가이드</title>
+    <link rel="stylesheet" href="css/guide.css" />
+</head>
+<body>
+    <header>
+        <h1>Daily Beer Publishing Guide</h1>
+    </header>
+    <div class="container">
+        <div class="nav-side">
+            <ul>
+                <li class="on"><a href="index.html">기본환경</a></li>
+                <li><a href="rules_standard.html">표준규칙</a></li>
+                <li><a href="rules_code.html">코드규칙</a></li>
+                <li><a href="rules_name.html">네임규칙</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="content-header">
+                <h2>기본환경</h2>
+            </div>
+            <div class="content-body">
+                <div class="section">
+                    <div class="section-header">
+                        <h3>프로젝트 환경</h3>
+                    </div>
+                    <div class="section-body">
+                        <div class="tbl-type1">
+                            <table>
+                                <caption>환경정의</caption>
+                                <colgroup>
+                                    <col style="width:20%" />
+                                </colgroup>
+                                <tbody>
+                                    <tr>
+                                        <th>문서 및 버전</th>
+                                        <td>HTML5, CSS3</td>
+                                    </tr>
+                                    <tr>
+                                        <th>인코딩</th>
+                                        <td>UTF-8</td>
+                                    </tr>
+                                    <tr>
+                                        <th>웹 유형</th>
+                                        <td>반응형 웹</td>
+                                    </tr>
+                                    <tr>
+                                        <th>PC 웹 호환성</th>
+                                        <td> - </td>
+                                    </tr>
+                                    <tr>
+                                        <th>모바일 웹 호환성</th>
+                                        <td> - </td>
+                                    </tr>
+                                    <tr>
+                                        <th>해상도 정책</th>
+                                        <td>
+                                            PC UI : 930~ <br />
+                                            MOBILE UI : ~929
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>소스관리</th>
+                                        <td>
+                                            main : 배포<br />
+                                            development : 개발
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="section-header">
+                        <h3>파일/폴더 규칙</h3>
+                    </div>
+                    <div class="section-body">
+                        <div class="tbl-type2">
+                            <table>
+                                <caption>파일/폴더구조</caption>
+                                <colgroup>
+                                    <col style="width:20%" />
+                                    <col style="width:20%" />
+                                    <col style="width:25%" />
+                                </colgroup>
+                                <thead>
+                                    <tr>
+                                        <th>분류 폴더</th>
+                                        <th>서브 폴더</th>
+                                        <th>파일 이름</th>
+                                        <th>파일 설명</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>fonts</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>웹폰트</td>
+                                    </tr>
+                                    <tr>
+                                        <td>css</td>
+                                        <td>-</td>
+                                        <td>
+                                            font.css <br />
+                                            style.css <br />
+                                        </td>
+                                        <td>
+                                            스타일 - 글꼴 지정 <br />
+                                            스타일 - 선언한 스타일 호출
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>scss</td>
+                                        <td>-</td>
+                                        <td>
+                                            layout.css <br />
+                                            common.css <br />
+                                            font.css <br />
+                                            style.css <br />
+                                            style_s.css <br />
+                                            style_y.css <br />
+                                        </td>
+                                        <td>
+                                            스타일 - 전역 공통 : 공통 레이아웃 <br />
+                                            스타일 - 전역 공통 : 수정 및 초기화 <br />
+                                            스타일 - 글꼴 지정 <br />
+                                            스타일 - 전역 공통 : 신규 스타일 <br />
+                                            스타일 - 지역 개별 : 퍼블리싱팀 서승준 사원 시트 <br />
+                                            스타일 - 지역 개별 : 퍼블리싱팀 서유나 사원 시트 
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>js</td>
+                                        <td>libs</td>
+                                        <td>
+                                            jquery.min.js
+                                        </td>
+                                        <td>
+                                            스크립트 - jQuery Core
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>-</td>
+                                        <td>ui</td>
+                                        <td>
+                                            common.js <br />
+                                            publish.js
+                                        </td>
+                                        <td>
+                                            스크립트 - UI <br />
+                                            스크립트 - 퍼블리싱 작업용
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>img</td>
+                                        <td>
+                                            common <br />
+                                            content <br />
+                                            main <br />
+                                            temp
+                                        </td>
+                                        <td>-</td>
+                                        <td>
+                                            이미지 - 공통 <br />
+                                            이미지 - 서브 <br />
+                                            이미지 - 메인 <br />
+                                            이미지 - 샘플
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>html</td>
+                                        <td>
+                                            layout <br />
+                                            menu
+                                        </td>
+                                        <td>-</td>
+                                        <td>
+                                            공통페이지 <br />
+                                            메뉴페이지
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="section-header">
+                        <h3></h3>
+                    </div>
+                    <div class="section-body">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
